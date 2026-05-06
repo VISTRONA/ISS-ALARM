@@ -28,4 +28,4 @@ jobs:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           USER_LATITUDE: ${{ secrets.USER_LATITUDE }}
           USER_LONGITUDE: ${{ secrets.USER_LONGITUDE }}
-        run: python main.
+        run: python main.py
