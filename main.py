@@ -90,7 +90,7 @@ if __name__ == "__main__":
             send_emails()
         else:
             print("ISS is not in range.")
-            send_emails()
+            
     else:
         print("It's currently daytime. ISS wouldn't be visible anyway.")
-        send_emails()
+        
